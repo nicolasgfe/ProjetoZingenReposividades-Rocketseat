@@ -2,6 +2,7 @@
 
   --btn-bg-color: var(--text-color-primary);
   --btn-color: var(--bg-color);
+
   border: 0;
   background-color: transparent;
 
@@ -10,7 +11,7 @@
   justify-content: center;
   width: fit-content;
 
-  border: 0.5rem;
+  border-radius: 0.5rem;
 
   font: var(--fw-md) var(--fs-base)/1.5rem var(--ff-sans);
   cursor: pointer;
@@ -52,7 +53,7 @@
   &::before {
     content: "";
     position: absolute;
-    border: inherit;
+    border-radius: inherit;
     inset: 0.09375rem;
     background-color: var(--bg-color);
   }
