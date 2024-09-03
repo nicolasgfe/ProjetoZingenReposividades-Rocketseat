@@ -27,8 +27,6 @@
   color: var(--btn-color);
 }
 
-.btn.secondary {}
-
 .btn-sm {
   padding: 0.5rem 1rem;
   font-size: var(--fs-sm);
@@ -37,13 +35,11 @@
 .btn-md {
   padding: 0.75rem 1.5rem;
   font-size: var(--fs-base);
-
 }
 
 .btn-lg {
   padding: 1rem 2rem;
   font-size: 1.125rem;
-
 }
 
 .btn[aria-label] {
@@ -53,7 +49,7 @@
     content: "";
     position: absolute;
     border-radius: inherit;
-    inset: 0.09375rem;
+    inset: 1px;
     background-color: var(--bg-color);
   }
 
@@ -68,7 +64,7 @@
   }
 }
 
-@media (width >= 80em) {
+@media (width >=80em) {
   .btn-sm {
     padding: 0.75rem 1.5rem;
     font-size: var(--fs-base);
